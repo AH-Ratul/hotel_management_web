@@ -1,0 +1,52 @@
+
+.border-b {
+    border-bottom: 1px solid;
+}
+.border-grey-300 {
+    color: rgba(209, 213, 219);
+}
+
+.primary-btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    background-color: #00BFFF;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.primary-btn:hover {
+    background-color: dodgerblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.w-6 {
+    width: 71%;
+}

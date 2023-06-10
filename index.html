@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise inn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="my-style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="nav-bar">
+            <header class="header flex">
+                <p>Paradise Inn.</p>
+                <nav class="nav">
+                    <a href="#home">Home</a>
+                    <a href="#profile">Profile</a>
+                    <a href="#login">About</a>
+                    <button class="primary-btn open-register">Register</button>
+                    <button class="primary-btn open-login">Login</button>
+                </nav>
+            </header>
+        </div>
+    </section>
+    <div class="border-b border-grey-300"></div>
+    <section class="container">
+        <div class="model">
+            <form class="login-form container ">
+                <button class="close">&times;</button>
+                <h2>Login Here</h2>
+                <div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="email here">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input id="pass" type="password"  placeholder="password here" required>
+                    </div>
+                    <button id="login-btn" class="login-btn">Login</button>
+                </div>
+                <br>
+                <span class="swap">Don't have an account?<a href="#"> Register</a></span>
+            </form>
+        </div>
+    </section>
+
+   <section class="container">
+    <div class="model1">
+        <form class="login-form container">
+            <button class="close1">&times;</button>
+            <h2>Register Here</h2>
+            <div>
+                <div>
+                    <label for="name">Name</label>
+                    <input class="name" type="text" placeholder="Enter Name">
+                </div>
+                <div>
+                    <label for="phone">Phone</label>
+                    <input class="phone" type="text" placeholder="Enter Phone" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input class="reg-email" type="email" placeholder="Enter Email">
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input class="reg-pass" type="password" placeholder="Enter Password" required>
+                </div>
+                <button class="login-btn reg-btn">Register</button>
+            </div>
+            <br>
+           
+        </form>
+    </div>
+   </section>
+
+    <section>
+        <div class="homepage">
+            <div class="div1">
+                <h1 >Where would you <br> like to stay?</h1>
+            </div>
+            <div class="div2">
+                <div class="flex">
+                    <div ><i class="fa-solid fa-location-dot"></i></div>
+                    <div>
+                        <p class="loc">Cox's Bazar</p>
+                    </div>
+                </div><br>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ex vero ullam dolore doloribus</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="search-area">
+            <div class="search-div w-6 flex">
+                <div class="flex-col">
+                    <div>
+                        <label>Destination Place</label>
+                    </div>
+                        <div>
+                            <select class="select" name="place">
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Chittagong">Chittagong</option>
+                                <option value="Rajshahi">Rajshahi</option>
+                                <option value="Khulna">Khulna</option>
+                                <option value="Sylhet">Sylhet</option>
+                                <option value="Cox's Bazar">Cox's Bazar</option>
+                            </select>
+                        </div>
+                </div>
+               <div class="flex-col">
+                   <div>
+                    <label for="in-out">Check-in</label>
+                   </div>
+                    <input class="select" type="date">
+                </div>
+               <div class="flex-col">
+                   <div>
+                    <label for="in-out">Check-out</label>
+                   </div>
+                    <input class="select" type="date">
+                </div>
+                <div class="flex-col">
+                   <div>
+                    <label for="guests">Guests</label>
+                   </div>
+                    <select class="select" name="guests">
+                        <option value="1 adult">1 adult</option>
+                        <option value="1 adult/1 child">1 adult/1 child</option>
+                        <option value="2 adults">2 adults</option>
+                        <option value="2 adults/1 child">2 adults/1 child</option>
+                        <option value="3 adults">3 adults</option>
+                        <option value="3 adults/1 child">3 adults/1 child</option>  
+                    </select>
+                </div>
+                   
+               <div class="flex-col">
+                <div>
+                    <label for="rooms">Rooms</label>
+                </div>
+                <select class="select">
+                    <option value="1 Room">1 Room</option>
+                    <option value="2 Rooms">2 Rooms</option>
+                    <option value="3 Rooms">3 Rooms</option>
+                    <option value="4 Rooms">4 Rooms</option>
+                    <option value="5 Rooms">5 Rooms</option>
+                    <option value="6 Rooms">6 Rooms</option>
+                </select>
+               </div>
+                <button class="search-btn primary-btn">Search</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="">
+            <div class="new-div">
+                <h1 class="ft">Featured</h1>
+                <div class="line"></div>
+                <div class="main-cart">
+                    <div class="1">
+                        <div class="cart">
+                            <div class="cart-item">
+                                <div class="img-box1">
+                                    <img src="image/room1.jpg">
+                                </div>
+                                <div>
+                                    <p class="id1">ID: 23101</p>
+                                <h4 class="room-title">Single Room</h4>
+                                <div class="dt flex justify-between">
+                                    <p class="p1"><i class="fa-solid fa-bed"></i> Bed: 2</p>
+                                    <p class="p1"><i class="fa-solid fa-bath"></i> Bath: 1</p>
+                                    <p class="price">300&#2547;/night</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="1">
+                        <div class="cart">
+                            <div class="cart-item">
+                                <div class="img-box1">
+                                    <img src="image/room4.jpg">
+                                </div>
+                                <div>
+                                    <p class="id1">ID: 23102</p>
+                                <h4 class="room-title">Double Room</h4>
+                                <div class="dt flex justify-between">
+                                    <p class="p1"><i class="fa-solid fa-bed"></i> Bed: 2</p>
+                                    <p class="p1"><i class="fa-solid fa-bath"></i> Bath: 1</p>
+                                    <p class="price">400&#2547;/night</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="1">
+                        <div class="cart">
+                            <div class="cart-item">
+                                <div class="img-box1">
+                                    <img src="image/room7.jpg">
+                                </div>
+                                <div>
+                                    <p class="id1">ID: 23103</p>
+                                <h4 class="room-title">Junior Suite</h4>
+                                <div class="dt flex justify-between">
+                                    <p class="p1"><i class="fa-solid fa-bed"></i> Bed: 3</p>
+                                    <p class="p1"><i class="fa-solid fa-bath"></i> Bath: 1</p>
+                                    <p class="price">2000&#2547;/night</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="1">
+                        <div class="cart">
+                            <div class="cart-item">
+                                <div class="img-box1">
+                                    <img src="image/room6 (1).jpg">
+                                </div>
+                                <div>
+                                    <p class="id1">ID: 23104</p>
+                                <h4 class="room-title">Presidential Suite</h4>
+                                <div class="dt flex justify-between">
+                                    <p class="p1"><i class="fa-solid fa-bed"></i> Bed: 3</p>
+                                    <p class="p1"><i class="fa-solid fa-bath"></i> Bath: 2</p>
+                                    <p class="price">4500&#2547;/night</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div><h1 class="hl"></h1></div>
+    </section>
+
+    
+    <footer>
+        <div class="footer-container">
+            <div class="">
+                <div class="footer-border">
+                    <div class="feedback">
+                        <input type="text" placeholder="Give Feedback">
+                        <button><i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="list-div ">
+                        <div class="list-txt">
+                            <ul class="ft-ul">
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Services</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="social-div">
+                        <ul class="social-list">
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-end">
+                   <div class="fe flex">
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Contact</a>
+                   </div>
+                    <h1>Paradise Inn</h1>
+                    <p class="copyright">Copyright 2023. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/6252495f26.js" crossorigin="anonymous"></script>
+</body>
+</html>
